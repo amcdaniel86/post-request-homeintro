@@ -1,0 +1,16 @@
+<!-- user-info-form.hbs -->
+<form action="/display-user-info">
+
+  <label class="first-test" for="name-input">Name</label>
+  <input id="name-input" type="text" name="name">
+
+  <label for="age-input">Age</label>
+  <input id="age-input" type="number" name="age">
+
+  <label for="superhero-input">Favorite Superhero</label>
+  <input id="superhero-input" type="text" name="superhero">
+{{!-- INPUT NAME IS MOST IMPORTANT PART to send info from the form to the server. --}}
+{{!-- <input type="submit"> can also be used as a button. --}}
+{{!-- label for is attached to the if of the input. --}}
+  <button type="submit">Submit Info!</button>
+</form>
